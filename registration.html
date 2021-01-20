@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            background-color: #ccc;
+            padding: 0px;
+            margin: 0px;
+        }
+        .container
+        {
+            background: #fff;
+            width: 600px;
+            height: 500px;
+            border-radius: 03px;
+            margin: 0 auto;
+            border-bottom: 1px solid #ccc;
+            margin-top: 50px;
+        }
+        .paragraph
+        {
+            background: #148805;
+            color: white;
+            font-family: cursive;
+            text-align: center;
+            border-radius: 03px;
+            padding: 15px 0px 15px 0px;
+            margin-bottom: 50px;
+        }
+        .input 
+        {
+            width: 235px;
+            height: 35px;
+            border-radius: 03px;
+            border: none;
+            border: 1px solid #ccc;
+            margin-left: 25px;
+            padding-left: 05px;
+            border-left: 03px solid #27ae60;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        label
+        {
+            margin-left: 23px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .container form .btn{
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 34px;
+            border: none;
+            outline: none;
+            background: #27a327;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 4px;
+            transition: .3s;
+    </style>
+</head>
+<body>
+   <div class="container">
+
+    <form>
+        <p class="paragraph"> Registration Form</p>
+        <input type="text" name="fname" placeholder="First Name" class="input"/>
+        <input type="text" name="lname" placeholder="Last Name" class="input"/>
+        <br/>
+        <input type="email" name="email" placeholder="Email" class="input"/>
+        <input type="email" name="email" placeholder="Confirm Email" class="input"/>
+        <br/>
+        <input type="password" name="password" placeholder="Password" class="input"/>
+        <input type="password" name="password" placeholder="Password" class="input"/>
+        <br/>
+
+        <label>Male</label> <input type="radio" name="gender" /></label>
+        <label>Female</label> <input type="radio" name="gender" /></label>
+        <br/>
+
+        <input type="submit" class="btn" value="Login">
+    </form>
+
+   </div>
+</body>
+</html>
